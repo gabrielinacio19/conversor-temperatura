@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌡️ Conversor de Temperatura</h1>
+
+        <label for="valor">Digite a temperatura:</label>
+        <input type="number" id="valor" placeholder="Ex: 25">
+
+        <label for="origem">Converter de:</label>
+        <select id="origem">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select>
+
+        <label for="destino">Para:</label>
+        <select id="destino">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select>
+
+        <button id="converter">Converter</button>
+
+        <h2 id="resultado">Resultado aparecerá aqui</h2>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
