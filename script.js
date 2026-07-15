@@ -27,3 +27,20 @@ function converterDeCelsius(temperatura, unidadeDestino) {
 
     return temperatura;
 }
+
+function converterTemperatura() {
+    const temperatura = Number(valor.value);
+    const unidadeOrigem = origem.value;
+    const unidadeDestino = destino.value;
+
+    const temperaturaEmCelsius =
+        converterParaCelsius(temperatura, unidadeOrigem);
+
+    const temperaturaConvertida =
+        converterDeCelsius(temperaturaEmCelsius, unidadeDestino);
+
+    resultado.textContent =
+        `Resultado: ${temperaturaConvertida.toFixed(2)}`;
+}
+
+botao.addEventListener("click", converterTemperatura);
