@@ -33,6 +33,16 @@ function converterTemperatura() {
     const unidadeOrigem = origem.value;
     const unidadeDestino = destino.value;
 
+if (
+    valor.value.trim() === "" ||
+    unidadeOrigem === "" ||
+    unidadeDestino === ""
+) {
+    resultado.textContent =
+        "Preencha o valor e selecione as unidades de origem e destino.";
+    return;
+}
+
     const temperaturaEmCelsius =
         converterParaCelsius(temperatura, unidadeOrigem);
 
