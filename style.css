@@ -12,3 +12,11 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
+.container {
+    background: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
