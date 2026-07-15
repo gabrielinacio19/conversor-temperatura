@@ -15,3 +15,15 @@ function converterParaCelsius(temperatura, unidadeOrigem) {
 
     return temperatura;
 }
+
+function converterDeCelsius(temperatura, unidadeDestino) {
+    if (unidadeDestino === "fahrenheit") {
+        return (temperatura * 9 / 5) + 32;
+    }
+
+    if (unidadeDestino === "kelvin") {
+        return temperatura + 273.15;
+    }
+
+    return temperatura;
+}
