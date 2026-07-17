@@ -32,3 +32,11 @@ Projeto desenvolvido para a disciplina utilizando HTML, CSS e JavaScript.
 4. Escolha a unidade de origem.
 5. Escolha a unidade de destino.
 6. Clique em **Converter Temperatura**.
+
+## Versões
+
+### v1.0.0
+Primeira versão funcional do projeto.
+
+### v2.0.0
+Melhorias visuais na interface e refinamento da experiência do usuário.
