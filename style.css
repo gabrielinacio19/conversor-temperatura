@@ -67,7 +67,8 @@ button:hover {
     margin-top: 20px;
     text-align: center;
     font-weight: bold;
-    color: #333;
+    color: #2196F3;
+    font-size: 22px;
 }
 
 @media (max-width: 480px) {
